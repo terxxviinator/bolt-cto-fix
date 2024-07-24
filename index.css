@@ -123,13 +123,14 @@ h1{
     background-color: rgb(6, 197, 255);
     display: grid;
     transition: 300ms;
+    font-family: "myFont2", sans-serif;
   }
   
   .grid:has(.left:hover) {
     --left: 30%;
 }
 p{
-    font-family: "Arwing", sans-serif;
+    font-family: "myFont2", sans-serif;
 }
 
 
@@ -144,10 +145,12 @@ p{
         margin-top: 0;
     }
     .logo2{
-        display: none;
+        display: flex;
+        justify-content: center;
+        margin-right: 50%;
     }
 
 }
 marquee{
-    font-family: "Arwing", sans-serif;
+    font-family: "myFont2", sans-serif;
 }
